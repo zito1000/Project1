@@ -1702,39 +1702,39 @@ export const NightSky: React.FC = () => {
         {/* Final Message & Tasneem Block */}
         <div
           ref={finalTextBlockRef}
-          className="absolute inset-x-0 bottom-6 sm:bottom-10 max-w-3xl mx-auto px-6 flex flex-col items-center gap-4 opacity-0 select-none text-center"
+          className="absolute inset-x-0 bottom-4 sm:bottom-10 max-w-3xl mx-auto px-4 sm:px-6 flex flex-col items-center gap-3 sm:gap-4 opacity-0 select-none text-center"
         >
-          {/* Heartfelt Apology Message with Deep Space Soft Blur Vignette Backdrop */}
-          <div
-            ref={finalMessageRef}
-            className="space-y-3 max-w-2xl mx-auto mb-1 p-6 rounded-3xl bg-slate-950/40 backdrop-blur-md border border-amber-400/10 shadow-[0_0_40px_rgba(10,14,26,0.8)]"
-          >
-            <p className="font-serif-cinematic text-sm sm:text-base md:text-lg text-slate-100 font-light leading-relaxed tracking-wide [text-shadow:_0_0_12px_rgba(255,255,255,0.3)]">
-              I wanted to clarify something because that's the last thing I wanted you to think of me.
-            </p>
-            <p className="font-serif-cinematic text-sm sm:text-base md:text-lg text-slate-100 font-light leading-relaxed tracking-wide [text-shadow:_0_0_12px_rgba(255,255,255,0.3)]">
-              When I said I like helping people, I never meant that you're just an ordinary person to me, or that your presence is like anyone else's. Perhaps my words failed me, but my intentions certainly weren't.
-            </p>
-            <p className="font-serif-cinematic text-sm sm:text-base md:text-lg text-slate-100 font-light leading-relaxed tracking-wide [text-shadow:_0_0_12px_rgba(255,255,255,0.3)]">
-              The truth is, we meet many people in life, but very few leave a positive impression and deserve appreciation and respect. You're one of those people I deeply respect, whose character and hard work I value, and whose success I rejoice in. Therefore, what I did stemmed from my appreciation for you, not from mere habit.
-            </p>
-            <p className="font-serif-cinematic text-sm sm:text-base md:text-lg text-slate-100 font-light leading-relaxed tracking-wide [text-shadow:_0_0_12px_rgba(255,255,255,0.3)]">
-              If you were just anyone to me, I wouldn't have paid attention to the details, nor would I have put in the same effort and taken the same pleasure.
-            </p>
-            <p className="font-serif-cinematic text-sm sm:text-base md:text-lg text-amber-200 font-normal leading-relaxed tracking-wide italic [text-shadow:_0_0_15px_rgba(255,220,130,0.5)]">
-              So, if my words upset you or made you feel that your place in my heart is less than you deserve, I sincerely apologize. Sometimes words can't express what's in the heart, but actions speak louder than words. I ask God to perpetuate respect between us, and to grant you all goodness and success.
-            </p>
-          </div>
-
-          <div className="w-28 h-[1px] bg-gradient-to-r from-transparent via-amber-300/50 to-transparent my-1" />
-
           {/* Tasneem Header */}
           <h1
             ref={finalTitleRef}
-            className="font-serif-cinematic text-3xl sm:text-5xl md:text-6xl text-amber-100 font-normal tracking-widest drop-shadow-[0_0_35px_rgba(255,225,140,0.6)] [text-shadow:_0_0_20px_rgba(255,230,160,0.7),_0_0_45px_rgba(255,190,80,0.4)]"
+            className="font-serif-cinematic text-2xl sm:text-4xl md:text-5xl text-amber-100 font-normal tracking-widest drop-shadow-[0_0_35px_rgba(255,225,140,0.6)] [text-shadow:_0_0_20px_rgba(255,230,160,0.7),_0_0_45px_rgba(255,190,80,0.4)]"
           >
             Tasneem
           </h1>
+
+          <div className="w-24 sm:w-28 h-[1px] bg-gradient-to-r from-transparent via-amber-300/50 to-transparent my-1 sm:my-2" />
+
+          {/* Heartfelt Apology Message with Deep Space Soft Blur Vignette Backdrop */}
+          <div
+            ref={finalMessageRef}
+            className="space-y-2.5 sm:space-y-3 max-h-[45vh] sm:max-h-none overflow-y-auto pointer-events-auto max-w-2xl mx-auto mb-1 p-4 sm:p-6 rounded-3xl bg-slate-950/40 backdrop-blur-md border border-amber-400/10 shadow-[0_0_40px_rgba(10,14,26,0.8)]"
+          >
+            <p className="font-serif-cinematic text-xs sm:text-sm md:text-base text-slate-100 font-light leading-relaxed tracking-wide [text-shadow:_0_0_12px_rgba(255,255,255,0.3)]">
+              I wanted to clarify something because that's the last thing I wanted you to think of me.
+            </p>
+            <p className="font-serif-cinematic text-xs sm:text-sm md:text-base text-slate-100 font-light leading-relaxed tracking-wide [text-shadow:_0_0_12px_rgba(255,255,255,0.3)]">
+              When I said I like helping people, I never meant that you're just an ordinary person to me, or that your presence is like anyone else's. Perhaps my words failed me, but my intentions certainly weren't.
+            </p>
+            <p className="font-serif-cinematic text-xs sm:text-sm md:text-base text-slate-100 font-light leading-relaxed tracking-wide [text-shadow:_0_0_12px_rgba(255,255,255,0.3)]">
+              The truth is, we meet many people in life, but very few leave a positive impression and deserve appreciation and respect. You're one of those people I deeply respect, whose character and hard work I value, and whose success I rejoice in. Therefore, what I did stemmed from my appreciation for you, not from mere habit.
+            </p>
+            <p className="font-serif-cinematic text-xs sm:text-sm md:text-base text-slate-100 font-light leading-relaxed tracking-wide [text-shadow:_0_0_12px_rgba(255,255,255,0.3)]">
+              If you were just anyone to me, I wouldn't have paid attention to the details, nor would I have put in the same effort and taken the same pleasure.
+            </p>
+            <p className="font-serif-cinematic text-xs sm:text-sm md:text-base text-amber-200 font-normal leading-relaxed tracking-wide italic [text-shadow:_0_0_15px_rgba(255,220,130,0.5)]">
+              If my words upset you or made you feel that your place with me is less than you deserve, I sincerely apologize. Sometimes words can't express what's in the heart, but actions speak louder than words. I ask God to perpetuate respect between us, and to grant you all goodness and success.
+            </p>
+          </div>
         </div>
       </div>
     </div>
