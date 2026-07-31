@@ -1,0 +1,6 @@
+{
+  "name": "Cinematic Night Sky Experience",
+  "description": "An ultra-realistic, GPU-accelerated night sky scene featuring thousands of twinkling stars, a detailed procedurally rendered Milky Way, subtle purple nebulas, floating cosmic particles, and slow cinematic camera movement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
